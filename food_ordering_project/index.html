@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Canvas</title>
+
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!--Style-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="showcart">
+    <div class="container">
+    <!--Header-->
+    <header>
+        <!--Navbar-->
+        <nav class="navbar">
+
+            <!--Logo-->
+            <img src="img/logo.png" class="logo" alt="">
+
+            <!--List-->
+            <ul class="links-container">
+                <li class="link-items"><a href="#" class="links">Menu</a></li>
+                <li class="link-items"><a href="#" class="links">Cart</a></li>
+                <li class="link-items"><a href="#" class="links">About</a></li>
+                <li class="link-items"><a href="#" class="links">Contact Us</a></li>
+
+            </ul>
+
+            <!--Search Box-->
+            <div class="nav-extras">
+                <!--Search box-->
+                <div class="search">
+                    <input type="text" class="search-box" placeholder="Search Restaurants, Cuisine.....">
+                    <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+
+                <!--Cart btn-->
+                
+                    <a href="" class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                
+                    <span>1</span>
+               
+            </div>
+        </nav>
+
+        <!--Hero Section-->
+        <main id="hero-section">
+
+            <!--Hero Content-->
+            <div class="hero-content">
+                <h1 class="hero-heading">Eat the best</h1>
+                <p class="hero-line">Explore and understand the culture more by tasting the amazing dishes of the culture.</p>
+
+                <div class="search location">
+                    <input type="text" class="search-box" placeholder="Search Restaurants, Cuisine.....">
+                    <button class="search-btn locate-btn"><i class="fa-solid fa-location-crosshairs"></i></button>
+                </div>
+                <div class="hero-action-btn-container">
+                    <button class="btn">Order Food</button>
+                </div>
+            </div>
+
+            <!--Hero Img Container-->
+            <div class="hero-img-container">
+                <div class="background-ele">
+                    <div class="ellipse"></div>
+                    <div class="ellipse"></div>
+                    <div class="ellipse"></div>
+                </div>
+                <div class="forground-elements">
+                    <img src="img/hero-biryani.png" class="hero-img" alt="">
+                    <img src="img/hero-pizza.png" class="hero-img" alt="">
+                    <img src="img/hero-burger.png" class="hero-img" alt="">
+                </div>
+            </div>
+        </main>
+    </header>
+    
+    <!--Food Ordering Section-->
+    <section id="food-section">
+        <div class="section">
+
+            <!--Food Img Container-->
+            <div class="food-img-container">
+                <div class="circle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                
+                <div class="circle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div>
+                    <img src="img/food-1.png" class="food-img" alt="">
+                    <img src="img/food-3.png" class="food-img" alt="">
+                    <img src="img/food-6.png" class="food-img" alt="">
+                    <img src="img/food-2.png" class="food-img" alt="">
+                    <img src="img/food-7.png" class="food-img" alt="">
+                    <img src="img/food-4.png" class="food-img" alt="">
+                    <img src="img/food-5.png" class="food-img" alt="">
+                </div>
+            </div>
+            <!--Section Content-->
+            <div class="section-detail">
+                <span class="section-highlight">From professional chef</span>
+                <p class="section-title">10000+</p>
+                <p class="section-info">Order from our 10000+ food and beverages menu. Food for every taste and mood.</p>
+
+                <Button class="btn">Order Food</Button>
+            </div>
+        </div>
+
+        <div class="food-container">
+            <div class="food">
+                <p class="discount">50% Off</p>
+                <div class="food-thumbnail">
+                    <img src="img/food-item-1.png" class="foods-img" alt="">
+                </div>
+                <div class="food-body">
+                    <h3 class="food-name">Veg Maharaja Mac</h3>
+                    <p class="discription">Double patty,cheese sclice,onion,tomato</p>
+                    <p class="restaurant">Mcdonald's</p>
+                    <div class="price">Rs.79</div>
+                    <button class="addcart">
+                        Add To Cart
+                    </button>
+                    <span class="rating">4.2<i class="fa-solid fa-star"></i></span>
+                </div>
+            </div>
+      
+            <div class="food">
+                <div class="food-thumbnail">
+                    <img src="img/food-item-2.png" class="foods-img" alt="">
+                </div>
+                <div class="food-body">
+                    <h3 class="food-name">Pizza</h3>
+                    <p class="discription">Capcicum,jalapeno,olives,tamato,cheese</p>
+                    <p class="restaurant">PizzaHut</p>
+                    <div class="price">Rs.79</div>
+                    <button class="addcart">
+                        Add To Cart
+                    </button>
+                    <span class="rating">4.2<i class="fa-solid fa-star"></i></span>
+                </div>
+            </div>
+
+        
+            <div class="food">
+                <div class="food-thumbnail">
+                    <img src="img/food-item-3.png" class="foods-img" alt="">
+                </div>
+                <div class="food-body">
+                    <h3 class="food-name">Food 3</h3>
+                    <p class="discription">###################################</p>
+                    <p class="restaurant">hgfhgfhgfh</p>
+                    <div class="price">Rs.79</div>
+                    <button class="addcart">
+                        Add To Cart
+                    </button>
+                    <span class="rating">4.2<i class="fa-solid fa-star"></i></span>
+                </div>
+            </div>
+        
+            <div class="food">
+                <p class="discount">50% Off</p>
+                <div class="food-thumbnail">
+                    <img src="img/food-item-4.png" class="foods-img" alt="">
+                </div>
+                <div class="food-body">
+                    <h3 class="food-name">Food 4</h3>
+                    <p class="discription">###################################</p>
+                    <p class="restaurant">dfgsfdg  re </p>
+                    <div class="price">Rs.79</div>
+                    <button class="addcart">
+                        Add To Cart
+                    </button>
+                    <span class="rating">4.2<i class="fa-solid fa-star"></i></span>
+                </div>
+            </div>
+        
+            <div class="food">
+                <p class="discount">50% Off</p>
+                <div class="food-thumbnail">
+                    <img src="img/food-item-5.png" class="foods-img" alt="">
+                </div>
+                <div class="food-body">
+                    <h3 class="food-name">Food 5</h3>
+                    <p class="discription">###################################</p>
+                    <p class="restaurant">fd dfgf</p>
+                    <div class="price">Rs.79</div>
+                    <button class="addcart">
+                        Add To Cart
+                    </button>
+                    <span class="rating">4.2<i class="fa-solid fa-star"></i></span>
+                </div>
+            </div>
+        
+            <div class="food">
+                <div class="food-thumbnail">
+                    <img src="img/food-item-6.jpg" class="foods-img" alt="">
+                </div>
+                <div class="food-body">
+                    <h3 class="food-name">Food 6</h3>
+                    <p class="discription">###################################</p>
+                    <p class="restaurant">%%%%%%%%%%%%</p>
+                    <div class="price">Rs.79</div>
+                    <button class="addcart">
+                        Add To Cart
+                    </button>
+                    <span class="rating">4.2<i class="fa-solid fa-star"></i></span>
+                </div>
+            </div>
+        </div>
+        
+        <!--cart-->
+        <div class="cartTab">
+            <h1>Your Order</h1>
+            <div class="listcart">
+                <div class="item">
+                    <div class="img">
+                        <img src="img/food-1.png" alt="">
+                    </div>
+                    <div class="name">
+                        NAME
+                    </div>
+                    <div class="totapprice">
+                        Rs.15
+                    </div>
+                    <div class="quantity">
+                        <span class="minus">+</span>
+                        <span>1</span>
+                        <span class="plus">-</span>
+                    </div>
+                </div>
+            </div>
+            <div class="btnn">
+                <button class="close">Close</button>
+                <button class="plaseorder">Place Order</button>
+            </div>
+        </div>
+    </section>
+
+    <!--About Section-->
+    <section id="about-section">
+
+        <div class="about-us">
+
+
+            <div class="circle"></div>
+
+            <img src="img/pizza-pan.png" class="pizza-pan-img" alt="">
+
+
+        </div>
+
+        <!--About services-->
+        <div class="about">
+            <h2 class="about-title">Why Us?</h2>
+
+            <p class="about-info">We serves the best in taste. Our customer is our number 1 priority.</p>
+
+            <div class="services-container">
+                <div class="service">
+                    <div class="service-title">
+                        <img src="img/fastest-delivery.png" class="service-img" alt="">
+                        <h3 class="service-name">Fastest Delivery</h3>
+                    </div>
+                </div>
+                <div class="service">
+                    <div class="service-title">
+                        <img src="img/best-prices.png" class="service-img" alt="">
+                        <h3 class="service-name">Best Prices</h3>
+                    </div>
+                </div>
+                <div class="service">
+                    <div class="service-title">
+                        <img src="img/20+ restaurant.png" class="service-img" alt="">
+                        <h3 class="service-name">20+ Restaurants</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    
+    <section id="footer">
+        <div class="company-info">
+            <img src="img/logo.png" class="logo" alt="">
+
+            <div class="social-links">
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+                <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+        </div>
+
+        <div class="useful-links footer-links-container">
+            <h5 class="footer-links-title">Useful Links</h5>
+            <a href="" class="footer-links">Menu</a>
+            <a href="" class="footer-links">Cart</a>
+            <a href="" class="footer-links">Support</a>
+            <a href="" class="footer-links">Track Order</a>
+        </div>
+
+        <div class="information footer-links-container">
+            <h5 class="footer-links-title">Information</h5>
+            <a href="" class="footer-links">About Us</a>
+            <a href="" class="footer-links">Privacy Policy</a>
+            <a href="" class="footer-links">Terms & Conditions</a>
+        </div>
+
+        <div class="content footer-links-container">
+            <h5 class="footer-links-title">Contact Us</h5>
+           <p class="footer-text">Phone - +00 1234567898</p>
+           <p class="footer-text">Email - mealcanvas@gmail.com</p>
+           <p class="footer-text">X - @mealcanvas</p>
+           <p class="footer-text">Instagram - @mealcanvas</p>
+        </div>
+
+        <div class="payment-patners">
+            <img src="img/visa.png" alt="">
+            <img src="img/master-card.png" alt="">
+            <img src="img/paypal.png" alt="">
+            <img src="img/google-pay.png" alt="">
+        </div>
+
+        <p class="payment-patners-text">Fully secured payment gatways by trusted companies</p>
+
+        <p class="copyright">Designed & Created by Anuj Kr Sharma</p>
+
+    </section>
+
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>

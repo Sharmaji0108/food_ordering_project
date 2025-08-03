@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "name": "Veg Maharaja Mac",
+        "price": 79,
+        "description": "Double patty,cheese sclice,onion,tomato",
+        "image": "/meal_canvas-/img/food-item-1.png"
+    },
+    {
+        "id": 2,
+        "name": "Veg Maharaja Mac",
+        "price": 79,
+        "image": "img\food-item-2.png"
+    },
+    {
+        "id": 3,
+        "name": "Veg Maharaja Mac",
+        "price": 79,
+        "image": "img\food-item-3.png"
+    },
+    {
+        "id": 4,
+        "name": "Veg Maharaja Mac",
+        "price": 79,
+        "image": "img\food-item-4.png"
+    },
+    {
+        "id": 5,
+        "name": "Veg Maharaja Mac",
+        "price": 79,
+        "image": "img\food-item-5.png"
+    },
+    {
+        "id": 6,
+        "name": "Veg Maharaja Mac",
+        "price": 79,
+        "image": "img\food-item-6.jpg"
+    }
+]
